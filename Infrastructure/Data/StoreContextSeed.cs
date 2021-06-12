@@ -20,7 +20,7 @@ namespace Infrastructure.Data
                     var brandsData = File.ReadAllText("../Infrastructure/Data/SeedData/brands.json");
                     var brands = JsonSerializer.Deserialize<List<ProductBrand>>(brandsData);
 
-                    foreach ( var item in brands)
+                    foreach (var item in brands)
                     {
                         context.ProductBrand.Add(item);
                     }

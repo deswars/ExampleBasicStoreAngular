@@ -1,6 +1,4 @@
 ﻿using Core.Entities;
-using System;
-using System.Linq.Expressions;
 
 namespace Core.Specifications
 {
